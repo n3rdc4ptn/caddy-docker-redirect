@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      - "3000:80"
+    environment:
+      - REDIRECT_TYPE=temporary
+      - REDIRECT_TARGET=https://www.mydomain.com

@@ -1,0 +1,3 @@
+:80
+
+redir {$REDIRECT_TARGET}{uri} {$REDIRECT_TYPE}
